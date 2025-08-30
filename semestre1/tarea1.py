@@ -1,5 +1,5 @@
 print( "~~~~Que deseas realizar~~~~" )
-print( "" "1. Sumar\n2. Restar\n3. Multiplicar\n4. Dividir" )
+print( "1. Sumar\n2. Restar\n3. Multiplicar\n4. Dividir" )
 
 problema = int(input("Que opcion deseas realizar (1..4): "))
 
