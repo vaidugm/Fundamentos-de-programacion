@@ -4,4 +4,4 @@ apm = input("Ingresa tus apellidos: ")
 numcontrol = input("Ingresa tu numero de control: ")
 carrera = input("Ingresa tu carrera: ")
 
-print (f"Tu nombre es {nombre} y tus apellidos son {apm}\nTu numero de control es {numcontrol}\nTu carrera es {carrera}")
+print (f"Tu nombre completo es {nombre} {apm}\nTu numero de control es {numcontrol}\nTu carrera es {carrera}")
