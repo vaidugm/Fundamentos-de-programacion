@@ -1,9 +1,12 @@
-cadena = input("Ingrese una oracion: ")
+calificaciones = []
 
-contador = 0
-vocales = ("aeiouAEIOU")
+for i in range(5):
+    calificaciones.append(float(input(f"Ingresa la calificación {i+1}: ")))
 
-for x in cadena:
-    if  x in vocales:
-        contador += 1
-print("El numero de vocales que contiene la oracion ingresada es: ", contador)
+promedio = sum(calificaciones) / 5
+
+print("Promedio:", promedio)
+if promedio >= 70:
+    print("¡APROBADO!")
+else:
+    print("¡REPROBADO!")
