@@ -2,21 +2,21 @@ import time
 
 def printlyrics():
     lines = [
-        ("I wanna da-", 0.06),
-        ("I wanna dance in the lights", 0.05),
-        ("I wanna ro-", 0.07),
-        ("I wanna rock your body", 0.08),
-        ("I wanna go-", 0.08),
-        ("I wanna go for a ride", 0.068),
-        ("Hop in the music and", 0.07),
-        ("Rock your body", 0.08),
-        ("Rock your body", 0.069),
-        ("come on, come on", 0.035),
-        ("Rock your body", 0.05),
-        ("(Rock your body)", 0.03),
-        ("Rock your body", 0.049),
-        ("come on, come on", 0.035),
-        ("Rock your body", 0.08),
+        ("insist", 0.07),
+        ("That you are in love, my lover", 0.08),
+        ("You passed out", 0.07),
+        ("And I didn't even notice", 0.07),
+        ("I think in position when I see your eyes", 0.09),
+        ("Freud will be very, very, very mad", 0.08),
+        ("So, so, so...", 0.05),
+        ("Sorry you're gone", 0.07),
+        ("So, so, so...", 0.05),
+        ("Leave him alone", 0.07),
+        ("(Lovely)", 0.06),
+        ("Lovely, lovely times, nothing but (lovely)", 0.08),
+        ("Lovely, lovely times, nothing while (lovely)", 0.08),
+        ("Lovely, lovely times, nothing but (lovely, lovely)", 0.08),
+        ("(Just me lovin' myself)", 0.09),
     ]
 
     for text, delay in lines:
