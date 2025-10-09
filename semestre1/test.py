@@ -1,12 +1,17 @@
-calificaciones = []
+saldo = 100
 
-for i in range(5):
-    calificaciones.append(float(input(f"Ingresa la calificación {i+1}: ")))
+print("Bienvenido al sistema de retiros.")
+print(f"Saldo disponible: ${saldo:.2f}\n")
 
-promedio = sum(calificaciones) / 5
+while saldo > 0:
+    retiro = float(input("¿Cuanto deseas retirar?: "))
 
-print("Promedio:", promedio)
-if promedio >= 70:
-    print("¡APROBADO!")
-else:
-    print("¡REPROBADO!")
+    if retiro > saldo:
+        print(f"No tienes saldo suficiente")
+        break
+    else:
+        saldo -= retiro
+        print(f"Has retirado ${retiro:.2f}. Saldo restante: ${saldo:.2f}\n")
+
+print("Saldo agotado. No puedes hacer mas retiros.")
+
